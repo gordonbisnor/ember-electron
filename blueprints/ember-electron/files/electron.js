@@ -1,7 +1,7 @@
 /* jshint node: true */
 'use strict';
 
-const electron         = require('electron');
+const electron         = Npm.require('electron');
 const app              = electron.app;
 const BrowserWindow    = electron.BrowserWindow;
 const emberAppLocation = `file://${__dirname}/dist/index.html`;
